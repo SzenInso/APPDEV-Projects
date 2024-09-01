@@ -188,3 +188,67 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+/* Basic Reset */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* Timer section */
+/* Basic Reset */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* Timer section */
+.timer-container {
+  text-align: center;
+  margin-top: 5rem; /* Add spacing from the top of the page */
+}
+
+#timer {
+  font-size: 4rem; /* Size of the countdown timer */
+  font-weight: bold;
+  color: hsl(205, 78%, 60%);
+  display: block; /* Ensure the timer is displayed as a block element */
+  margin-bottom: 1rem; /* Space between the timer and the button */
+}
+
+.start-timer {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: hsl(205, 78%, 60%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  display: inline-block; /* Ensure the button is displayed as an inline-block element */
+}
+
+.start-timer:hover {
+  background: hsl(205, 63%, 48%);
+}
