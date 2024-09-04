@@ -1,0 +1,20 @@
+.person{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px, solid hsla(0, 0%, 0%, 0.5);
+  box-shadow:5px 5px 10px hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+}
+.person p{
+  margin: 0;
+}
+.person-picture{
+  max-width: 60%;
+  max-height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
