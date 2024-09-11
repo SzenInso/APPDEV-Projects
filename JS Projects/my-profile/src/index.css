@@ -28,8 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #616161;
-  /*background-image: url("textilebg.jpg");*/
+  background-color: #ffffff;
+  background-image: url("City.png");
 }
 
 h1 {
@@ -67,12 +67,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-  #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
+
 
 @keyframes logo-spin {
   from {
@@ -96,25 +92,27 @@ button:focus-visible {
 .read-the-docs {
   color: #888;
 }
-.person{
+
+.person {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   padding: 10px;
-  border: 2px, solid hsla(0, 0%, 0%, 0.5);
-  box-shadow:10px 10px 10px hsla(0, 0%, 0%, 0.5);
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
   display: inline-block;
+  background-color: #654236;
+  color: #D6D4A0;
 }
-.person p{
+.person p {
   margin: 0;
 }
-.person-picture{
+.person-picture {
   max-width: 60%;
   max-height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
-}
 }

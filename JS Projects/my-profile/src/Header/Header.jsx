@@ -12,9 +12,9 @@ function Header() {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-         <img src="https://placeholder.pics/svg/150x150" alt="person-logo" className="person-picture" />
+         <h1>My Personal Website</h1>
           <button className="nav-toggle" onClick={toggleMenu}>
-            <i className="fas fa-bars"></i> {/* Hamburger icon */}
+            <i className="fas fa-bars"></i>
           </button>
         </div>
         <div className={`links ${isMenuOpen ? 'show-links' : ''}`}>

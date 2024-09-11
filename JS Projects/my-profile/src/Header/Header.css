@@ -1,20 +1,22 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
 nav {
-  background: var(--clr-white);
+  background: #DB995A;
   box-shadow: var(--light-shadow);
+  border: 2px, solid hsla(0, 0%, 0%, 0.5);
+  box-shadow:10px 10px 10px hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  height: auto;
 }
 
-/* Navigation header layout */
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
   width: 100%;
+  
 }
-
-/* Toggle button for mobile view */
 .nav-toggle {
   font-size: 1.5rem;
   color: var(--clr-primary-5);
@@ -29,16 +31,15 @@ nav {
   transform: rotate(90deg);
 }
 
-/* Logo styling */
 .logo {
   height: 40px;
 }
 
-/* Links styling */
 .links {
   height: 0;
   overflow: hidden;
   transition: var(--transition);
+  margin-right: 20px;
 }
 
 .links a {
@@ -54,12 +55,13 @@ nav {
 .links a:hover {
   background: var(--clr-primary-8);
   color: var(--clr-primary-5);
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 /* Social icons styling */
 .social-icons {
   display: none;
+  margin-right: 10px;
 }
 
 .social-icons a {
