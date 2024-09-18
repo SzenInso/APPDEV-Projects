@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
-import MyImage from '../Eren.png'
-export default function Profile(props){ //props-to pass information to functional components; usually arguments or parameters
+export default function Profile(props){ 
     return(
         <div className="person">
             <img src={MyImage} alt="person-logo" className="person-picture" />
