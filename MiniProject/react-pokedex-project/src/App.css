@@ -1,0 +1,41 @@
+.region-pokemons {
+  margin-top: 20px;
+}
+
+.region-pokemons h2 {
+  margin: 10px 0;
+}
+
+.pokemon-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pokemon-box {
+  border: none;
+  border-radius: 10%;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 10px;
+  opacity: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.pokemon-box img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.pokemon-box img:hover {
+  transform: scale(1.1);
+}
