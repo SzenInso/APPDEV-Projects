@@ -13,6 +13,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <center>
     <Header/>
     <Identification/>
     <App />
@@ -21,5 +22,6 @@ createRoot(document.getElementById('root')).render(
     <Paragraph />
     <MyCart />
     <Footer/>
+    </center>
   </StrictMode>,
 )
