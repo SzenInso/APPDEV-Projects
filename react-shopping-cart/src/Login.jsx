@@ -11,10 +11,10 @@ export default function Login(){
     
     //accounts list
     let accounts = [
-        {id: 2 , username: "admin", password: "admin", role: "admin"},
-        {id: 1, username: "customer", password: "customer", role: "customer"},
-        {id: 3, username: "customer", password: "customer", role: "customer"},
-        {id: 4, username: "customer", password: "customer", role: "customer"}
+        {id: 1 , username: "admin", password: "admin", role: "admin"},
+        {id: 2, username: "customer1", password: "customer", role: "customer"},
+        {id: 3, username: "customer2", password: "customer", role: "customer"},
+        {id: 4, username: "customer3", password: "customer", role: "customer"}
     ]
 
     //boolean state for logging in
