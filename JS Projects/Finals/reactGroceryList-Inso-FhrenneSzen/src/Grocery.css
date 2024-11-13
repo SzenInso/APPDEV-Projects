@@ -1,0 +1,93 @@
+/* General Layout */
+.shop-items-container,
+.cart-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.item-card,
+.cart-item {
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item-card {
+  width: 150px;
+  border: 1px solid #ccc;
+}
+
+.cart-item {
+  width: 180px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+h5 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+p {
+  margin: 0;
+  color: #444;
+}
+
+button {
+  background-color: #555;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.payment-section label,
+.receipt h4 {
+  font-size: 1.2em;
+}
+
+.payment-section input {
+  padding: 8px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  width: 150px;
+  text-align: right;
+}
+
+.receipt {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.receipt-items {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.receipt-items p {
+  margin: 5px 0;
+}
+
+.receipt p {
+  font-size: 1.1em;
+}
+
+strong {
+  font-weight: bold;
+}
