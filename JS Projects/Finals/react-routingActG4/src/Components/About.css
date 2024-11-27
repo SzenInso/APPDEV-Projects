@@ -1,0 +1,28 @@
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-description-box {
+    background-color: #3a3a3a;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-description-box p {
+    margin-bottom: 15px;
+}
