@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App.jsx'; // Ensure this points to your App component
-import './index.css'; // Include your global styles
+import App from './App.jsx'; 
+import './index.css'; 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
